@@ -20,7 +20,7 @@ $(document).ready(function(){
    			$("#input-email").parent().append("<span>Ingrese correo valido</span>");
   		}
 
-  		if(($("#input-password").val() == "password") || ($("#input-password").val() == 123456) || ($("#input-password").val() == 098754) || (($("#input-password").val()).length < 5)){
+  		if(($("#input-password").val() == "password") || ($("#input-password").val() == 123456) || ($("#input-password").val() == 098765) || (($("#input-password").val()).length < 5)){
   			$("#input-password").parent().append("<span>Ingrese contraseña valida</span>");
   		}
 
@@ -37,6 +37,7 @@ $(document).ready(function(){
   		$("#input-social").val(""); 
   		$("input:checkbox").val(""); 
   		$('input:checkbox[value=remember-me]').attr('checked',false);	
-  		$('input:checkbox[value=remember-me]').checkbox("");			  		  				  		
+  		//No se como desmarcar el checkbox 
+  		//$('input:checkbox[value=remember-me]').checkbox("");			  		  				  		
 	});
 });
